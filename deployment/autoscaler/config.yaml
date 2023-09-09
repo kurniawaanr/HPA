@@ -11,8 +11,9 @@ spec:
   maxReplicas: 10
   targetCPUUtilizationPercentage: 60
 
-
-# default scaleup & scaledown cooldown period(CDP) on HPA kubernetes cant be changed
-# built-in scaleup CDP around 3mins
-# built-in scaledown CDP around 5mins (tested)
+#
+# built-in default scaleup & scaledown cooldown period(CDP) on HPA kubernetes cant be changed
+# scaleup CDP around 3mins (tested)
+# scaledown CDP around 5mins (tested)
 # source : https://stackoverflow.com/questions/64523941/kubernetes-hpa-scale-up-cooldown
+# 
