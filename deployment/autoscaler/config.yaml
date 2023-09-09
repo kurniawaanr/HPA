@@ -1,0 +1,18 @@
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: php-apache-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: php-apache
+  minReplicas: 1
+  maxReplicas: 10
+  targetCPUUtilizationPercentage: 60
+
+
+# default scaleup & scaledown cooldown period(CDP) on HPA kubernetes cant be changed
+# built-in scaleup CDP around 3mins
+# built-in scaledown CDP around 5mins (tested)
+# source : https://stackoverflow.com/questions/64523941/kubernetes-hpa-scale-up-cooldown
