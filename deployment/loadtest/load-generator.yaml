@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: load-generator
+  #namespace: app
 spec:
   containers:
   - name: busybox-container
@@ -14,5 +15,5 @@ spec:
 # run this command on terminal to start this pod: 
 # kubectl exec -it load-generator -- /bin/sh
 # then use command to create load testing to php-apache pod
-# 
+# while true; do wget -q -O- http://php-apache; done
 # this creates an infinite loop that uses wget to repeatedly make HTTP requests to the URL "http://php-apache" in a quiet mode

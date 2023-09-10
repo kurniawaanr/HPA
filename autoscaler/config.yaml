@@ -9,7 +9,7 @@ spec:
     name: php-apache
   minReplicas: 1
   maxReplicas: 10
-  targetCPUUtilizationPercentage: 60
+  targetCPUUtilizationPercentage: 50
 
 #
 # built-in default scaleup & scaledown cooldown period(CDP) on HPA kubernetes cant be changed
