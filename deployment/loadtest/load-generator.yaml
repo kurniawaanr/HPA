@@ -14,4 +14,5 @@ spec:
 # run this command on terminal to start this pod: 
 # kubectl exec -it load-generator -- /bin/sh
 # then use command to create load testing to php-apache pod
-# creates an infinite loop that uses wget to repeatedly make HTTP requests to the URL "http://php-apache" in a quiet mode
+# 
+# this creates an infinite loop that uses wget to repeatedly make HTTP requests to the URL "http://php-apache" in a quiet mode
