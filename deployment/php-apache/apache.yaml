@@ -30,7 +30,10 @@ metadata:
   labels:
     run: php-apache
 spec:
+  type: NodePort        # Change this line to specify the service type as NodePort
   ports:
   - port: 80
+    targetPort: 80
+    nodePort: 31111     # Specify the nodePort value you want to use
   selector:
     run: php-apache
