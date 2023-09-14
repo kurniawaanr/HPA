@@ -14,3 +14,5 @@ subjects:
 - kind: ServiceAccount
   name: kube-state-metrics
   namespace: kube-system
+
+  # change version to 2.10.0
