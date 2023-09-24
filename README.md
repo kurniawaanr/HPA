@@ -9,3 +9,6 @@ im using minikube version v1.31.2 for this
 progression :
 sep 19 - grafana cloud access policies, next: generate HTTP API KEYS
 sep 20 - grafana cloud still stucks
+sep 24 - grafana cloud still stucks
+
+sep 24 - finally grafana cloud integration done! using ngrok to expose prometheus local server to internet
