@@ -36,3 +36,5 @@ spec:
     nodePort: 31111     # Specify the nodePort value you want to use
   selector:
     run: php-apache
+
+    
