@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: php-apache
-  #namespace: app
 spec:
   selector:
     matchLabels:
