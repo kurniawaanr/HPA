@@ -29,7 +29,7 @@ required to install before begin:
 this deployment using php to create demo web app that use a lot of CPU resource. you can use another programming language too, as long as it can stimulate CPU resource.
 1. deploy demo app (using php-apache) [in this section](https://github.com/kurniawaanr/HPA/tree/main/deployment/php-apache)
 2. deploy load generator (using busybox) [in this section](https://github.com/kurniawaanr/HPA/tree/main/deployment/loadtest)
-3. deploy Horizontal Pod Autoscaler [in this section](https://github.com/kurniawaanr/HPA/tree/main/autoscaler)
+3. deploy Horizontal Pod Autoscaler [^1][in this section](https://github.com/kurniawaanr/HPA/tree/main/autoscaler)
 4. deploy configure monitoring tools [in this section](https://github.com/kurniawaanr/HPA/tree/main/deployment/monitoring)
 5. deploy [Prometheus](https://github.com/kurniawaanr/HPA/tree/main/deployment/monitoring/prometheus)
 6. deploy [Grafana](https://github.com/kurniawaanr/HPA/tree/main/deployment/monitoring/grafana)
