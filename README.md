@@ -26,7 +26,7 @@ required to install before begin:
 
 
 ## Deployment Steps
-this deployment using php to create demo web app that use a lot of CPU resource. you can use another programming language too, as long as it can stimulate CPU resource.
+this deployment using php to create demo web app that use a lot of CPU resource. you can use another programming language too, as long as it can stimulate high CPU resource.
 1. deploy demo app (using php-apache) [in this section](https://github.com/kurniawaanr/HPA/tree/main/deployment/php-apache)
 2. deploy load generator (using busybox) [in this section](https://github.com/kurniawaanr/HPA/tree/main/deployment/loadtest)
 3. deploy Horizontal Pod Autoscaler [^1][in this section](https://github.com/kurniawaanr/HPA/tree/main/autoscaler)
